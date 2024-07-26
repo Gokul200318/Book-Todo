@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("https://media.istockphoto.com/id/1954957993/photo/open-book-composition-with-hardback-books-fanned-pages-on-wooden-deck-table-and-green.jpg?s=612x612&w=0&k=20&c=6N3Y80HR_RVi0Ml2gUAR76rZgvjYOb8AqaLIqWyRkWI=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 600px;
+  }
+
+.navbar{
+    background-color: skyblue;
+    color: rgb(51,51,51);
+    padding: 10px;
+}
+.navbar:hover{
+    background-color: rgb(51,51,51);
+    color: skyblue;
+}
+
+
+.container{
+    padding: 10px;
+}
+.book-container{
+    padding: 15px;
+    width: 25%;
+    background-color: rgb(51,51,51);
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+    display:inline-block;
+    vertical-align: top;
+}
+.book-container h2{
+    color: skyblue;
+}
+
+.book-container button{
+    
+    background-color: skyblue;
+    color: black;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top:10px;
+    cursor: pointer;
+}
+.book-container button:hover{
+    background-color: rgb(255, 81, 81);
+}
+.overlay{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.add-button{
+    background-color: skyblue;
+    color:  rgb(51,51,51);
+    padding: 20px 30px;
+    border-radius: 100%;
+    border: none;
+    font-size: 30px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+.add-button:hover{
+    
+    background-color: rgb(48, 196, 255);
+}
+.popup-box{
+    background-color: skyblue;
+    width: 40%;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.popup-box input{
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    position: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+.popup-box textarea{
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    position: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+.popup-box button{
+    background-color: rgb(51,51,51);
+    color: skyblue;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
